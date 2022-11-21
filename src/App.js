@@ -28,7 +28,7 @@ function App() {
                 <Header/>
                 <Routes>
                     {/*<Route path="/" element={<NotesForm getActiveNote={getActiveNote()}/>}/>*/}
-                    <Route path="/petroherasymiv.github.io/appleNotes/" element={<NotesForm getActiveNote={getActiveNote()}/>}/>
+                    <Route path="/https://petroherasymiv.github.io/appleNotes/" element={<NotesForm getActiveNote={getActiveNote()}/>}/>
                     <Route path='/tableNotes' element={<TableNotesForm getActiveNote={getActiveNote()} />}/>
                 </Routes>
             </div>

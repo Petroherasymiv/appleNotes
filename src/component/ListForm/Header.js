@@ -20,7 +20,7 @@ const Header = () => {
         <div className={style.container}>
             <div className={style.headerLeft}>
                 <div className={style.headerLeft2}>
-                    <NavLink to='/petroherasymiv.github.io/appleNotes/'
+                    <NavLink to='/https://petroherasymiv.github.io/appleNotes/'
                              onClick={() => dispatch(setDoubleClick(false))}
                              className={({isActive}) => (!isActive ? style.listIcon : style.listIconActive)}
                     ></NavLink>
