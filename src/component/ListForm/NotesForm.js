@@ -92,7 +92,7 @@ const NotesForm = ({getActiveNote}) => {
                                autoFocus
                         />
                     </div>
-                    <div className={style.boxTextArea}>
+                    <div>
             <textarea id='body'
                       onChange={(e) => {
                           onEditField('body', e.target.value)
