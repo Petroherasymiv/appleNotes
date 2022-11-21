@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/appleNotes/static/css/main.5c2a21a4.css",
+    "main.js": "/appleNotes/static/js/main.eee3ca29.js",
+    "static/media/arrowLeft.png": "/appleNotes/static/media/arrowLeft.7a2a07ef953032afe17c.png",
+    "index.html": "/appleNotes/index.html",
+    "main.5c2a21a4.css.map": "/appleNotes/static/css/main.5c2a21a4.css.map",
+    "main.eee3ca29.js.map": "/appleNotes/static/js/main.eee3ca29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c2a21a4.css",
+    "static/js/main.eee3ca29.js"
+  ]
+}
