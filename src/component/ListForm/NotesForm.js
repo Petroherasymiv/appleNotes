@@ -93,14 +93,14 @@ const NotesForm = ({getActiveNote}) => {
                         />
                     </div>
                     <div>
-            <textarea id='body'
-                      onChange={(e) => {
-                          onEditField('body', e.target.value)
-                          setValue(e.target.value)
-                      }}
-                      placeholder={'Write your note here...'}
-                      value={getActiveNote.body}>
-            </textarea>
+                        <textarea id='body'
+                                  onChange={(e) => {
+                                      onEditField('body', e.target.value)
+                                      setValue(e.target.value)
+                                  }}
+                                  placeholder={'Write your note here...'}
+                                  value={getActiveNote.body}>
+                        </textarea>
                     </div>
                 </div>
 
