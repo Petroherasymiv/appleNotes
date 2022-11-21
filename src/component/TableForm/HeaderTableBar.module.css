@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top: 1px solid #b9b9b9;
+    overflow-y: hidden;
+}
+.boxContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+    /*border:1px solid black;*/
+}
+.box{
+    width: 200px;
+    height: 170px;
+    margin: 25px 16px 16px 16px;
+    /*display: flex;*/
+    /*margin: 0 auto;*/
+}
+.body{
+    font-size: 13px;
+}
+.boxTitle{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 20px;
+    color: #5d5d5d;
+    font-size: 14px;
+
+}
+.boxData{
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    color: #818181;
+    font-size: 11px;
+    font-weight: bold;
+}
+.active{
+    padding: 10px;
+    border: 2px solid #ffbb42;
+    cursor: pointer;
+    border-radius: 10px;
+    /*margin: 30px;*/
+    margin: 0 auto;
+    width: 170px;
+    height: 130px;
+}
+.noteStyle{
+    padding: 10px;
+    width: 170px;
+    height: 130px;
+    margin: 0 auto;
+    /*margin: 30px;*/
+    border-radius: 10px;
+    border: 1px solid #b9b9b9;
+
+}
+.clock{
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.openBox{
+    margin: 20px 40px;
+    width: 90%;
+    height: 100%;
+}
+

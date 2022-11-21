@@ -1,0 +1,41 @@
+.container{
+    padding-top: 15px;
+    width: 30%;
+    border-right: 1px solid #b9b9b9;
+    height: 100%;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-top: 1px solid #b9b9b9;
+}
+
+.notesStyle{
+    height: 87%;
+    /*overflow-y: scroll;*/
+    overflow-y: hidden;
+}
+.active{
+    background-color: #ffbb42;
+    cursor: pointer;
+    height: 70px;
+    padding-top: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 95%;
+    color: #e5e5e5;
+}
+.noteStyle{
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /*border: 1px solid black;*/
+    padding-top: 15px;
+    height: 70px;
+    padding-left: 30px;
+
+}
+
+.noteStyle:hover{
+    cursor: pointer;
+    background-color: #d5d5d5;
+}

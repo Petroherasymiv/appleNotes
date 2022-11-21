@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /*border: 1px solid red;*/
+}
+
+.notesForm {
+    width: 70%;
+    height: 100%;
+}
+.clock{
+   text-align: center;
+    color: #999999;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type='text'] {
+    font-weight: bold;
+    margin-top: 10px;
+    width: 90%;
+    font-size: 30px;
+    border: 1px solid white;
+    word-wrap: break-word;
+    height: 50px;
+}
+
+textarea {
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+textarea:focus, input[type='text']:focus {
+    outline: none;
+}
+
+input[type='search']:focus {
+    outline: none;
+    box-shadow: 0 0 4px 3px orange;
+}
+
+.headerNotesForm {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.NoNotes {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
